@@ -23,6 +23,7 @@ module.exports = function(app) {
         }).catch(err => {res.status(400).json(err)});
     });
 
+    // Updates excerise list
     app.put("/api/workouts/:id", (req, res) => {
         db.Workout.findByIdAndUpdate({ _id: req.params.id }, { excercises: req.body })
             .then((dbWorkout) => {
