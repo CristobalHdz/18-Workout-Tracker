@@ -24,9 +24,9 @@ module.exports = function (app) {
     });
 
     app.post("/api/workouts/:id", (req, res) => {
-        db.Workout.findByIdUpdate({_id: req.params.id}, {excercises: req.body})
-        .then((dbWorkout) => {
-            res.json(dbWorkout);
-        }).catch(err => res.status(400).json(err));
+        db.Workout.findByIdUpdate({ _id: req.params.id }, { excercises: req.body })
+            .then((dbWorkout) => {
+                res.json(dbWorkout);
+            }).catch(err => res.status(400).json(err));
     });
 };
