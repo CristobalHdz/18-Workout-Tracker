@@ -13,7 +13,7 @@ Published video URL: https://fitness-tracking-thinggy.herokuapp.com/
 Create an application that when runned, `npm install` => `npm run seed` => `npm start` should redirect you to the local server 3001. 
 For this assignment, create a workout tracker. We have already been provided with the front end code.
 
-The code can be pulled and follow the instructions above, or jsut visiting the Heroku App.
+The code can be pulled and follow the instructions above, or just visiting the Heroku App.
 
 
 # Section 03: My experience
