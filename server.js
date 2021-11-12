@@ -3,12 +3,11 @@ const mongoose = require("mongoose");
 const logger = require("morgan");
 // require("./seeders/seed")
 
+const PORT = process.env.PORT || 3002
 
-const PORT = process.env.PORT || 3001
+const Workout = require("./models/workout")
 
 const app = express();
-
-app.use(logger("dev"))
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
