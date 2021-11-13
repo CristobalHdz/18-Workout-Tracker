@@ -8,7 +8,7 @@
 
 by Cristobal Hernandez
 
-Published video URL: https://fitness-tracking-thinggy.herokuapp.com/
+Published URL: https://mighty-coast-71827.herokuapp.com
 
 # Section 02: General Information
 
