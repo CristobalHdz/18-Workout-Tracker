@@ -5,8 +5,6 @@ const logger = require("morgan");
 
 const PORT = process.env.PORT || 3002
 
-const Workout = require("./models/workout")
-
 const app = express();
 
 app.use(express.urlencoded({ extended: true }));
